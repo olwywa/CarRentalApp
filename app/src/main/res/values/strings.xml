@@ -1,0 +1,110 @@
+<resources>
+    <string name="app_name">Rent Car</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome!"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <!-- HOMEPAGE STRINGS -->
+    <string name="motto_part1_HomePage">DRIVE YOUR</string>
+    <string name="motto_part2_HomePage">DREAM CAR</string>
+    <string name="signin_btn">Sign in</string>
+    <string name="signup_btn">Sign up</string>
+    <string name="getstarted">Getting started...</string>
+    <string name="et_enter_user_nickname">Nickname</string>
+    <string name="et_enter_user_password">Password</string>
+    <string name="tvSigningupInfo">- Or create an account -</string>
+    <string name="creditsTo">Made by Oliwia Redzikowska</string>
+
+    <!-- REGISTRATION STRINGS -->
+    <string name="registration_info">Create your Account</string>
+    <string name="et_enter_user_name">Name</string>
+    <string name="et_enter_user_surname">Surname</string>
+    <string name="et_confirm_pass">Confirm password</string>
+    <string name="btn_submit">Submit</string>
+    <string name="termsofuse">I agree with the Terms of Use</string>
+    <string name="error_database_access">Database access error occurs</string>
+    <string name="password_dont_match">Passwords aren\'t the same</string>
+    <string name="not_null">You have to fill out all fields</string>
+
+    <!-- CAR DETAILS -->
+    <string name="description_audi">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</string>
+    <string name="audi_name">Audi</string>
+    <string name="audi_model">A6</string>
+    <string name="audi_price">600 zł</string>
+    <string name="audi_availability">13 - 20 March 2021</string>
+    <string name="description_bmw">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</string>
+    <string name="bmw_name">BMW</string>
+    <string name="bmw_model">M3</string>
+    <string name="bmw_price">700 zł</string>
+    <string name="bmw_availability">03 - 23 May 2021</string>
+    <string name="description_multi">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</string>
+    <string name="multipla_name">Fiat</string>
+    <string name="multipla_model">Multipla</string>
+    <string name="multipla_price">200 zł</string>
+    <string name="multipla_availability">01 - 26 April 2021</string>
+    <string name="description_fordfocus">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</string>
+    <string name="fordfocus_name">Ford Focus</string>
+    <string name="fordfocus_model">MK2</string>
+    <string name="fordfocus_price">500 zł</string>
+    <string name="ff_availability">22 - 28 June 2021</string>
+    <string name="description_toyota">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</string>
+    <string name="toyota_name">Toyota</string>
+    <string name="toyota_model">Corolla</string>
+    <string name="toyota_price">450 zł</string>
+    <string name="toyota_availability">17 - 29 May 2021</string>
+
+    <!-- LOGGED USER -->
+    <string name="searchbtn">Search car</string>
+    <string name="tv_logged_offer">Read about our cars</string>
+
+    <!-- EDIT ACCOUNT INFORMATION -->
+    <string name="edit_account_info_welcome">Informations about your account</string>
+    <string name="btn_confirm_changes">Confirm</string>
+    <string name="tv_yourName">Your name:</string>
+    <string name="tv_yourSurName">Your surname:</string>
+    <string name="tv_yourNickName">Your nickname:</string>
+    <string name="tv_yourPass">Your password:</string>
+    <string name="tv_deletequest">Do you want to delete your account?</string>
+    <string name="tv_newinformation">Enter new property value:</string>
+
+    <!-- BOOK A CAR INFORMATION -->
+    <string name="bookcar_welcome">Book your dream car</string>
+    <string name="delete_confirm">Are you sure?</string>
+    <string name="yes_answer">YES</string>
+    <string name="tv_availableDates">Available: </string>
+    <string name="tv_pricePerDay">Price per day: </string>
+
+    <!-- CALL CENTER ACTIVITY -->
+    <string name="needed_permissions">Permissions required!</string>
+    <string name="tv_callinstruction">Click the phone to make a call.</string>
+    <string name="tv_callcenter">Contact us if you have any problems or have not found your perfect car.</string>
+    <string name="success_delete">Account deleted</string>
+    <string name="btn_car_book_now">BOOK NOW</string>
+    <string name="my_booked_cars">My booked cars</string>
+    <string name="tv_welcometext">Have you found your perfect car yet?</string>
+    <string name="audi_desc_company">Audi makes individual premium mobility come alive. Find out about current and future models, technologies and services and learn what inspires Audi in shaping mobility of the future.</string>
+    <string name="bmw_desc_company">We may not always agree with each other. Sometimes we even tend to focus on the things that divide us, rather than those that unite us. However, no matter who we are, where we come from, or what we might prefer, one thing stays universal: we all love.</string>
+    <string name="ff_desc_company">In the words of our founder, Henry Ford, To do more for the world than the world does for you. That is success. Throughout our 117-year history and today, we strive to do more through our products, our services and by supporting the communities where we operate globally. We are proud of our contribution yesterday, today and tomorrow.</string>
+    <string name="toyota_desc_company">As one of the world’s leading patent holders with more than a century of experience, our intellectual property portfolios range from manufacturing unique cleaning solutions to crafting custom pigments. Explore all the patent portfolios currently available for licensing and discover how they can help you realize your vision</string>
+    <string name="fiat_desc_company">Fiat believes in the future of the electric car, and has decided to drastically lower the FCA group\'s average CO2 emissions along the road to zero emissions. That\'s why at the Geneva Motor Show 2019 FCA presented the new Fiat Centoventi, an electric utility concept that recalls the design of the most compact crossovers and lays the foundations for what could be the car of the future.</string>
+    <string name="edit_profile_section">Edit profile</string>
+    <string name="my_orders_section">My orders</string>
+    <string name="book_car_section">Book car</string>
+    <string name="call_center_section">Call center</string>
+    <string name="logout_section">Logout section</string>
+    <string name="log_out">Log out</string>
+    <string name="mainapplogo">MainAppLogo</string>
+    <string name="car_image_logo">Car image logo</string>
+    <string name="delete_order_icon">Delete order icon</string>
+    <string name="back_button">back button</string>
+    <string name="account_not_exists">No such an account</string>
+
+
+</resources>

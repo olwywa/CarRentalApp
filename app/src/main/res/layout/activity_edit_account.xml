@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ECEBEB"
+    android:orientation="vertical"
+    tools:context=".EditAccountActivity">
+
+    <ImageButton
+        android:id="@+id/btnGoBack"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="start"
+        android:layout_margin="10dp"
+        android:background="@drawable/et_shape"
+        android:contentDescription="@string/back_button"
+        android:onClick="onClickBack"
+        android:src="@drawable/ic_back" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/spinnaker_regular"
+        android:text="@string/edit_account_info_welcome"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/bg_cardwhiteshape"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:paddingBottom="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tv_yourName" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:padding="8dp"
+            android:weightSum="4">
+
+            <TextView
+                android:id="@+id/name_info"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="8dp"
+                android:layout_weight="3"
+                android:ems="10"
+                android:fontFamily="@font/adventpro_regular"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp" />
+
+            <ImageButton
+                android:id="@+id/btn_edit_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:contentDescription="@string/edit_profile_section"
+                android:src="@drawable/ic_edit_account" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tv_yourSurName" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:padding="8dp"
+            android:weightSum="4">
+
+            <TextView
+                android:id="@+id/surname_info"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="8dp"
+                android:layout_weight="3"
+                android:ems="10"
+                android:fontFamily="@font/adventpro_regular"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp" />
+
+            <ImageButton
+                android:id="@+id/btn_edit_surname"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:contentDescription="@string/edit_profile_section"
+                android:src="@drawable/ic_edit_account" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tv_yourNickName" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:padding="8dp"
+            android:weightSum="4">
+
+            <TextView
+                android:id="@+id/nickname_info"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="8dp"
+                android:layout_weight="3"
+                android:ems="10"
+                android:fontFamily="@font/adventpro_regular"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp" />
+
+            <ImageButton
+                android:id="@+id/btn_edit_nickname"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:contentDescription="@string/edit_profile_section"
+                android:src="@drawable/ic_edit_account" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tv_yourPass" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:padding="8dp"
+            android:weightSum="4">
+
+            <TextView
+                android:id="@+id/password_info"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="8dp"
+                android:layout_weight="3"
+                android:ems="10"
+                android:fontFamily="@font/adventpro_regular"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp" />
+
+            <ImageButton
+                android:id="@+id/btn_edit_password"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:contentDescription="@string/edit_profile_section"
+                android:src="@drawable/ic_edit_account" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="40dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="20dp"
+            android:layout_weight="4"
+            android:fontFamily="@font/spinnaker_regular"
+            android:gravity="center_vertical"
+            android:text="@string/tv_deletequest"
+            android:textSize="16sp" />
+
+        <ImageButton
+            android:id="@+id/btn_deleteAccount"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="1"
+            android:contentDescription="@string/delete_order_icon"
+            android:onClick="deleteAccount"
+            app:srcCompat="@drawable/ic_delete" />
+    </LinearLayout>
+
+</LinearLayout>

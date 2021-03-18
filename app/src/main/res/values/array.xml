@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="car_model">
+        <item>Audi A6</item>
+        <item>BMW M3</item>
+        <item>Ford Focus MK2</item>
+        <item>Toyota Corolla</item>
+        <item>Multipla</item>
+    </string-array>
+    
+</resources>

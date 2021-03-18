@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@color/colorBackgroundLight"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="@font/spinnaker_regular"
+            android:text="@string/motto_part1_HomePage"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:fontFamily="@font/spinnaker_regular"
+            android:text="@string/motto_part2_HomePage"
+            android:textSize="36sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imgLogoClassic"
+        android:layout_width="229dp"
+        android:layout_height="135dp"
+        android:layout_gravity="center"
+        android:src="@drawable/classiclogo"
+        android:contentDescription="@string/mainapplogo" />
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:paddingBottom="10dp"
+        android:layout_gravity="center"
+        android:background="@drawable/bg_cardwhiteshape"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginBottom="30dp"
+            android:fontFamily="@font/spinnaker_regular"
+            android:text="@string/getstarted"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/et_login_nick"
+            style="@style/Widget.AppCompat.EditText"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/et_shape"
+            android:ems="10"
+            android:fontFamily="@font/adventpro_regular"
+            android:gravity="center"
+            android:hint="@string/et_enter_user_nickname"
+            android:inputType="textPersonName"
+            android:autofillHints="" />
+
+        <EditText
+            android:id="@+id/et_login_pass"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/et_shape"
+            android:ems="10"
+            android:fontFamily="@font/adventpro_regular"
+            android:gravity="center"
+            android:hint="@string/et_enter_user_password"
+            android:inputType="textPassword"
+            android:importantForAutofill="no" />
+
+        <Button
+            android:id="@+id/btnSign_in"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/btn_corneradiusrectangle"
+            android:text="@string/signin_btn"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="@font/adventpro_regular"
+            android:gravity="center"
+            android:text="@string/tvSigningupInfo" />
+
+        <Button
+            android:id="@+id/btnSignUp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/btn_corneradiusrectangle"
+            android:text="@string/signup_btn"
+            android:textColor="@color/white"
+            android:textSize="14sp"/>
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/tvCredits"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/adventpro_regular"
+        android:gravity="center"
+        android:text="@string/creditsTo"
+        android:textSize="12sp" />
+
+</LinearLayout>

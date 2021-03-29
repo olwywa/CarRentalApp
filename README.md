@@ -27,4 +27,4 @@ Use case diagram is as below:
 
 ## Screenshots
 The homescreen of the app is the one with log-in option.
-![Homescreen](https://drive.google.com/file/d/1D6leN6Fdsb27fOZO3kA38RSVmc52gySS/view)
+![Homescreen](https://ibb.co/B2W20F6)

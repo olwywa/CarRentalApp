@@ -30,7 +30,6 @@ Use case diagram is as below:
 </p>
 
 ## Screenshots
-The homescreen of the app is the one with log-in option.
 
 <p align="center">
   <img width="300" height="500" src="https://user-images.githubusercontent.com/69539845/112909602-0e387b00-90f2-11eb-862b-aab32d704ef7.png" alt="HomeScreen">
